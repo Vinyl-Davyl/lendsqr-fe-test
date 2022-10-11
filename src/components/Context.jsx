@@ -27,12 +27,11 @@ const AppProvider = ({ children }) => {
     fetchUsers();
   }, []);
 
-  // THIS FUNCTION HANDLES THE CLICK EVENT OF THE OPTIONS BUTTON ON THE DASHBOARD PAGE
+  
   const handleClick = (e) => {
     const clicked = e.target.nextElementSibling;
     clicked.classList.toggle(`show`);
 
-    //gets ID of the user that will later be used for re-routing
     setUserId(e.target.parentElement.parentElement.getAttribute(`id`));
   };
 

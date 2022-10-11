@@ -59,11 +59,11 @@ const DashBody = () => {
     });
   };
 
-  // WHILE DATA IS BEING FETCHED FROM THE API
+  // Loader
   if (loading) {
     return (
       <section className='dashbody center'>
-        <h1>Loading...</h1>
+        <h1>🤹🏼</h1>
       </section>
     );
   }
@@ -72,7 +72,6 @@ const DashBody = () => {
     <section className={`${showDash || showNavbar ? `d-none` : ``} dashbody`}>
       <h2 className='title'>Users</h2>
 
-      {/* SECTION CONTAINING TOTAL USERS STATS */}
       <div className='users-data'>
         {usersData.map((card, index) => {
           const { title, icon } = card;
@@ -134,19 +133,18 @@ const DashBody = () => {
                     onClick={handleClick}
                   />
 
-                  {/* OPTIONS COMPONENT ACCESSIBLE BY CLICKING THE KEBAB MENU ON THE TABLE */}
+                  {/* User Option for menu*/}
                   <UserOptions />
                 </div>
               </div>
             );
           })}
 
-          {/* FILTER COMPONENT */}
+          {/* Filter */}
           <Filter />
         </div>
       </div>
 
-      {/* PAGINATION AT THE BOTTOM OF THE PAGE */}
       <div className='filter-pages-container'>
         <div className='filter'>
           <p>

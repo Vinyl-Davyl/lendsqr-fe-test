@@ -1,4 +1,4 @@
-// IMAGES FOR CUSTOMERS SERVICES
+// Customer Service Images
 import users from "./images/users.svg";
 import guarantor from "./images/guarantors.svg";
 import loans from "./images/loans.svg";
@@ -8,7 +8,7 @@ import loanRequests from "./images/loan-request.svg";
 import whitelist from "./images/whitelist.svg";
 import karma from "./images/karma.svg";
 
-// IMAGES FOR BUSINESSES SERVICES
+// Bussiness Service Images
 import briefcase2 from "./images/briefcase-2.svg";
 import loanProducts from "./images/loan-request.svg";
 import bank from "./images/bank.svg";
@@ -19,19 +19,19 @@ import userGear from "./images/user-gear.svg";
 import scroll from "./images/scroll.svg";
 import barChart from "./images/chart-bar.svg";
 
-// IMAGES FOR SETTINGS
+// Settings Images
 import slider from "./images/sliders.svg";
 import badgePercent from "./images/badge-percent.svg";
 import clipboard from "./images/clipboard-list.svg";
 
-// ICONS FOR USERS DATA SECTION (DASHBOARD BODY *Dashbody* )
+// Icons for user data section
 import dataUsers from "./images/data-users.svg";
 import dataUsersGroup from "./images/data-users-group.svg";
 import dataLoans from "./images/data-loans.svg";
 import dataSavings from "./images/data-savings.svg";
 
 const sidebarList = [
-  // CUSTOMERS
+  // Customer
   [
     { icon: users, title: `Users` },
     { icon: guarantor, title: "Guarantors" },
@@ -43,7 +43,7 @@ const sidebarList = [
     { icon: karma, title: "Karma" },
   ],
 
-  //   BUSINESSES
+  //   Bussiness
   [
     { icon: briefcase2, title: `Organization` },
     { icon: loanProducts, title: "Loan Products" },
@@ -55,7 +55,7 @@ const sidebarList = [
     { icon: scroll, title: "Settlements" },
     { icon: barChart, title: "Reports" },
   ],
-  //   SETTINGS
+  //   Settings
   [
     { icon: slider, title: `Preferences` },
     { icon: badgePercent, title: "Fees and Pricing" },

@@ -9,6 +9,11 @@ aside {
   transition: $generalTransition;
   background: $whiteColor;
 
+  .sidebarListItem.active,
+  .sidebarListItem:hover {
+    background-color: rgb(240, 240, 255);
+   }
+
   &.show {
     z-index: 4;
     transform: translateX(0%);
