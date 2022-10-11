@@ -1,6 +1,5 @@
 <h1>
-<img src="./src/Images/logo.png" style="height: 20px;" alt="image"> 
-lendsqr-fe-test 👋
+<img src="./src/images/logo.svg" style="height: 40px;" alt="image"> <span >👋</span>
 </h1>
 
 
@@ -13,7 +12,7 @@ lendsqr-fe-test 👋
 
 > At <b>Lendsqr </b>, many of our lenders use our mobile apps to reach over half a million customers. <br> 
 
-At this scale, we use <b> React </b> with TypeScript and SCSS as its frontend software development stack which allows us to rapidly ideate and release features rapidly and reliably.
+> At this scale, we use <b> React </b> with TypeScript and SCSS as its frontend software development stack which allows us to rapidly ideate and release features rapidly and reliably.
 
 ### ✨ [Live Demo](https://versusboardv2.netlify.app)
 
