@@ -1,0 +1,65 @@
+$primaryColor: #39cdcc;
+$textColorHeavy: #213f7d;
+$textColorLight: #545f7d;
+$whiteColor: #fff;
+$generalTransition: 0.5s ease-in-out all;
+$boxShadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+
+@mixin flexC {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flexJ {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flexCC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexCB {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// TABLE BUTTONS
+
+.inactive {
+  background: #f5f5f7;
+  color: $textColorLight;
+}
+
+.pending {
+  background: #fdf7e5;
+  color: #e9b200;
+}
+
+.blacklisted {
+  background: #fce6eb;
+  color: #e4033b;
+}
+
+.active {
+  background: #f3fcf6;
+  color: #39cd62;
+}
+
+// UTILITY CLASSES
+
+.underline {
+  width: 100%;
+  height: 0px;
+  opacity: 0.1;
+  border: 1px solid $textColorHeavy;
+}
+
+.center {
+  height: 100vh;
+  width: 100%;
+  @include flexCC;
+}

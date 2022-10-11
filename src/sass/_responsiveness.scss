@@ -1,0 +1,30 @@
+// MEDIA QUERIES
+@mixin for-phone-only {
+  @media screen and (max-width: 376px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-potrait-up {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-landscape-up {
+  @media screen and (min-width: 900px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin for-big-desktop-up {
+  @media screen and (min-width: 1800px) {
+    @content;
+  }
+}

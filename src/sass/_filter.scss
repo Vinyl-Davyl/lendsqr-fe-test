@@ -1,0 +1,80 @@
+.filter-container {
+  width: 270px;
+  position: absolute;
+  top: 50px;
+  background: $whiteColor;
+  border: 1px solid rgba(84, 95, 125, 0.14);
+  box-shadow: $boxShadow;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: $textColorLight;
+  transform: translateY(-200%);
+  transition: $generalTransition;
+
+  &.show {
+    transform: translateY(0%);
+  }
+
+  label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  select,
+  input {
+    width: 230px;
+    height: 40px;
+    background: $whiteColor;
+    border: 1px solid $textColorHeavy;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+
+  input {
+    padding: 0 1rem;
+  }
+
+  button {
+    width: 98px;
+    height: 40px;
+    background: $whiteColor;
+    border: 1px solid rgba(84, 95, 125, 0.14);
+    box-shadow: $boxShadow;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: $textColorLight;
+  }
+
+  .filter-btn {
+    margin-left: 14px;
+    background: #39cdcc;
+    color: #fff;
+    border: none;
+  }
+}
+
+@include for-phone-only {}
+
+@include for-tablet-potrait-up {}
+
+@include for-tablet-landscape-up {}
+
+@include for-desktop-up {
+  .filter-container {
+    height: 620px;
+    padding: 30px 20px;
+
+    label {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
+
+@include for-big-desktop-up {}

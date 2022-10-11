@@ -1,0 +1,71 @@
+.options {
+  width: 180px;
+  height: 130px;
+  background: $whiteColor;
+  border: 1px solid rgba(84, 95, 125, 0.04);
+  box-shadow: $boxShadow;
+  border-radius: 4px;
+  padding: 20px;
+  transform: scale(0);
+  position: absolute;
+  left: -95px;
+  transition: $generalTransition;
+
+  &.show {
+    transform: scale(1);
+    z-index: 4;
+  }
+
+  li {
+    margin: 0.5rem 0;
+    cursor: pointer;
+
+    span {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.admin-options {
+  top: 20px;
+  position: absolute;
+  left: -30px;
+  width: 150px;
+  background: $whiteColor;
+  box-shadow: $boxShadow;
+  border-radius: 5px;
+  transform: scale(0);
+  transition: $generalTransition;
+
+  ul {
+    padding: 1rem 0rem;
+    @include flexCB;
+    flex-direction: column;
+
+    li {
+      border-bottom: none !important;
+      margin: .5rem 0;
+      color: grey;
+
+      &:first-child {
+        color: $textColorHeavy;
+      }
+    }
+  }
+}
+
+
+
+@include for-phone-only {}
+
+@include for-tablet-potrait-up {}
+
+@include for-tablet-landscape-up {}
+
+@include for-desktop-up {
+  .options {
+    left: -80px;
+  }
+}
+
+@include for-big-desktop-up {}
