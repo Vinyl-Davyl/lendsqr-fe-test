@@ -44,6 +44,25 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
+## Building the application 
+<p>
+The npm build is used to build a package. 
+This occurs where a <package-folder> is a folder that contains a <b>package.json</b> in its root. <br> 
+This is the plumbing command that is called by npm link and npm install.
+<br>
+
+To build the application, open a terminal in your working directory, and type the following commands. 
+</p>
+<br> 
+
+```shell 
+$ npm run build 
+``` 
+
+
+<br>
+
+
 
 
 
@@ -69,19 +88,8 @@ At this scale, we use <b> React </b> with TypeScript and SCSS as its frontend so
 </ul> <br>
 
 
-## Pusing to Heroku 
+## Deploying project 
 
-<p> From your terminal type the following to host this application on 
-heroku </p>
-
-```
-$ heroku login
-$ heroku create 
-$ heroku rename <"app-new-name">
-$ git add .  
-$ git push heroku master 
-```
-<br>
 
 ## Working Principle 
 <p> The gif image below explains how the application functions. <p> 
@@ -104,18 +112,6 @@ $ npm install .
 ```
 <br> 
 
-## Running the application 
-<p>
- To run the application, open a terminal in your working directory where the files are located, and in the root folder, type the commands below. 
-</p>
-
-```shell
-$ npm start  
-```
-<p>
- This would start the react application and open a browser for you to view the web application on localhost. 
-
-</p>
 
 <br> 
 
