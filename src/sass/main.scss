@@ -1,0 +1,19 @@
+@import "./variables";
+@import "./responsiveness";
+@import "./general";
+@import "./login";
+@import "./navbar";
+@import "./sidebar";
+@import "./dashbody";
+@import "./filter";
+@import "./options";
+@import "./userdetails";
+
+.dashboard {
+  overflow-x: hidden;
+}
+
+.sidebar-body-container {
+  @include flexJ;
+  background: #fbfbfb;
+}
