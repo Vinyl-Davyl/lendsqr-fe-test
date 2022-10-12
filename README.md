@@ -16,7 +16,7 @@ lends-preview 👋
 
 > At this scale, we use <b> React </b> with TypeScript and SCSS as its frontend software development stack which allows us to rapidly ideate and release features rapidly and reliably.
 
-### ✨ [Live Demo]([https://okononfua-david-lendsqr-fe-test.netlify.app/])
+### ✨ [Live Demo](https://okononfua-david-lendsqr-fe-test.netlify.app/)
 
 ## Author
 
@@ -99,7 +99,7 @@ $ npm run build
 <p align="center"><img src="./src/images/shot3.png" /></p>
 
 
-### ✨ [Live Demo]([https://okononfua-david-lendsqr-fe-test.netlify.app/])
+### ✨ [Live Demo](https://okononfua-david-lendsqr-fe-test.netlify.app/)
 
 <br>
 
