@@ -9,7 +9,7 @@ import UserOptions from "./UserOptions";
 import moment from "moment";
 import { Link } from "react-router-dom";
 
-const DashBody = () => {
+const DashboardBody = () => {
   const [page, setPage] = useState(0);
   const [usersPage, setUsersPage] = useState([]);
 
@@ -182,4 +182,4 @@ const DashBody = () => {
   );
 };
 
-export default DashBody;
+export default DashboardBody;

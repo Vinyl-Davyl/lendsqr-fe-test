@@ -7,7 +7,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { BsBell } from "react-icons/bs";
 import profileImage from "../images/profile-image.png";
 import { Link } from "react-router-dom";
-import AdminOption from "./AdminOption";
+import AdminDrop from "./AdminDrop";
 
 const Navbar = () => {
   const { showNavbar, setShowNavbar, setShowDash, showDash } =
@@ -47,7 +47,7 @@ const Navbar = () => {
             <span>
               <IoMdArrowDropdown />
             </span>
-            <AdminOption />
+            <AdminDrop />
           </li>
         </ul>
       </div>
@@ -113,7 +113,7 @@ const Navbar = () => {
               <span>
                 <IoMdArrowDropdown />
               </span>
-              <AdminOption />
+              <AdminDrop />
             </li>
           </ul>
         </div>

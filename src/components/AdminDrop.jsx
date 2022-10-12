@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const AdminOption = () => {
+const AdminDrop = () => {
   return (
     <div className='admin-options'>
       <ul>
@@ -15,4 +15,4 @@ const AdminOption = () => {
   );
 };
 
-export default AdminOption;
+export default AdminDrop;

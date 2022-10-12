@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
-import DashBody from "../components/DashBody";
+import DashboardBody from "../components/DashboardBody";
 
 const Dashboard = () => {
   useEffect(() => {
@@ -14,7 +14,7 @@ const Dashboard = () => {
       <Navbar />
       <div className='sidebar-body-container'>
         <Sidebar />
-        <DashBody />
+        <DashboardBody />
       </div>
     </main>
   );

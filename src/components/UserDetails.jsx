@@ -4,7 +4,7 @@ import ratedStar from "../images/rated-star.svg";
 import unratedStar from "../images/unrated-star.svg";
 import { useGlobalContext } from "./Context";
 import { Link, useParams } from "react-router-dom";
-import Loading from "./Loading";
+import EmojiLoader from "./EmojiLoader";
 
 const UserDetails = () => {
   const { showNav, showDash } = useGlobalContext();
@@ -38,7 +38,7 @@ const UserDetails = () => {
 
   // WHILE FETCHING CUSTOMER DETAILS FROM THE API
   if (loading) {
-    return <Loading />;
+    return <EmojiLoader />;
   }
 
   const {
