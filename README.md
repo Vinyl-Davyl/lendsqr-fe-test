@@ -1,6 +1,6 @@
 <h1>
-<img src="./src/Images/logo.png" style="height: 20px;" alt="image"> 
-lendsqr-fe-test 👋
+lends-preview 👋
+<img src="./src/images/logo.svg" style="height: 20px;" alt="image"> 
 </h1>
 
 
@@ -13,9 +13,9 @@ lendsqr-fe-test 👋
 
 > At <b>Lendsqr </b>, many of our lenders use our mobile apps to reach over half a million customers. <br> 
 
-At this scale, we use <b> React </b> with TypeScript and SCSS as its frontend software development stack which allows us to rapidly ideate and release features rapidly and reliably.
+> At this scale, we use <b> React </b> with TypeScript and SCSS as its frontend software development stack which allows us to rapidly ideate and release features rapidly and reliably.
 
-### ✨ [Live Demo](https://versusboardv2.netlify.app)
+### ✨ [Live Demo]()
 
 ## Author
 
@@ -62,12 +62,28 @@ $ npm run build
 
 <br>
 
+![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![image](https://img.shields.io/badge/Netlify-430098?style=for-the-badge&logo=netlify&logoColor=white)
+![image](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![image](https://img.shields.io/badge/Codecademy-FFF0E5?style=for-the-badge&logo=codecademy&logoColor=303347)
+![image](https://img.shields.io/badge/Typescript-000000?style=for-the-badge&logo=typescript&logoColor=white)
+![image](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![image](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![image](https://img.shields.io/badge/Jacascript-593D88?style=for-the-badge&logo=javascript&logoColor=white)
 
 
+<p align="center"><img src="./src/Images/screenshot3.png" /></p>
+
+<p align="center"><img src="./src/Images/screenshot1.png" /></p>
+
+<p align="center"><img src="./src/Images/screenshot2.png" /></p>
 
 
+### ✨ [Live Demo]()
 
-<!-- ## Description 
+
+## Description 
 
 <p>
 At <b>Lendsqr </b>, many of our lenders use our mobile apps to reach over half a million customers. <br> 
@@ -88,8 +104,19 @@ At this scale, we use <b> React </b> with TypeScript and SCSS as its frontend so
 </ul> <br>
 
 
-## Deploying project 
+## Pusing to Heroku 
 
+<p> From your terminal type the following to host this application on 
+heroku </p>
+
+```
+$ heroku login
+$ heroku create 
+$ heroku rename <"app-new-name">
+$ git add .  
+$ git push heroku master 
+```
+<br>
 
 ## Working Principle 
 <p> The gif image below explains how the application functions. <p> 
@@ -112,6 +139,18 @@ $ npm install .
 ```
 <br> 
 
+## Running the application 
+<p>
+ To run the application, open a terminal in your working directory where the files are located, and in the root folder, type the commands below. 
+</p>
+
+```shell
+$ npm start  
+```
+<p>
+ This would start the react application and open a browser for you to view the web application on localhost. 
+
+</p>
 
 <br> 
 
@@ -136,39 +175,14 @@ $ npm run build
 ## Help
 
 <p>
-Contact me for references 
+Reach out to Vinyl
 <ul>
-    <li> <b> Email:</b> okononfuadavid@gmail.com </li> 
-    <li> <b>Number:</b> +234-7081-528827 </li>
-    <li> <b> Number: </b> +234-9030-045587 </li> 
+    <li> <b> Twitter</b> </li> 
+    <li> <b> Instagram </b> </li> 
 </ul>
 </p>
-<br> -->
-
-<!-- <p align="center"><img src="./src/Images/screenshot3.png" /></p>
-
-<p align="center"><img src="./src/Images/screenshot1.png" /></p>
-
-<p align="center"><img src="./src/Images/screenshot2.png" /></p> -->
-
-<!-- ![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-![image](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![image](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![image](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![image](https://img.shields.io/badge/Codecademy-FFF0E5?style=for-the-badge&logo=codecademy&logoColor=303347)
-![image](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![image](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![image](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white) -->
-
-<!-- ### Authors 
-
-<br> 
-
- Name | Image | 
------------- | -------------
-| <img style="margin-top: 20px; height: 70px; border-radius: 50px; width: 70px;" src="./src/Images/chinedu.jpg"> | 
+<br>
+ 
 
 ### Company 
 *  <b> Lendsqr </b> 
@@ -185,8 +199,3 @@ Contact me for references
 * Apache 
 
 <br>
-
-### Acknowledgments
-<p>
-   All thanks to God Almighty. 
-</p> -->
