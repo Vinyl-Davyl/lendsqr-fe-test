@@ -1,0 +1,4 @@
+Build the 4 pages Login, Dashboard, User page, User details page - Done ✔️
+The user pages should pull data from a mock api with 500 records - Done ✔️
+Use local storage or indexedDB to store and retrieve user details on the user details page. - Done ✔️
+The page must be mobile responsive - Work Done ✔️
