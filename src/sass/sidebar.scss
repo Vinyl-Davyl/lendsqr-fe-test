@@ -11,7 +11,9 @@ aside {
 
   .sidebarListItem.active,
   .sidebarListItem:hover {
-    background-color: rgb(240, 240, 255);
+    background-color: #ecfafa;
+    color: $textColorLight;
+    ;
    }
 
   &.show {
