@@ -1,6 +1,5 @@
 <h1>
-lends-preview 👋
-<img src="./src/images/logo.svg" style="height: 20px;" alt="image"> 
+lends-preview 👋 
 </h1>
 
 
@@ -10,6 +9,8 @@ lends-preview 👋
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
+
+<img src="./src/images/logo.svg" style="height: 20px;" alt="image"> <br>
 
 > At <b>Lendsqr </b>, many of our lenders use our mobile apps to reach over half a million customers. <br> 
 
@@ -31,66 +32,6 @@ Leave a ⭐️ If this project got you going!
   <a href="https://www.buymeacoffee.com/VinylDavyl"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buymeacoffee.com/VinylDavyl" /></a>
 </p>
 <br /><br /> -->
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-
-## Building the application 
-<p>
-The npm build is used to build a package. 
-This occurs where a <package-folder> is a folder that contains a <b>package.json</b> in its root. <br> 
-This is the plumbing command that is called by npm link and npm install.
-<br>
-
-To build the application, open a terminal in your working directory, and type the following commands. 
-</p>
-<br> 
-
-```shell 
-$ npm run build 
-``` 
-
-
-<br>
-
-![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![image](https://img.shields.io/badge/Netlify-430098?style=for-the-badge&logo=netlify&logoColor=white)
-![image](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![image](https://img.shields.io/badge/Codecademy-FFF0E5?style=for-the-badge&logo=codecademy&logoColor=303347)
-![image](https://img.shields.io/badge/Typescript-000000?style=for-the-badge&logo=typescript&logoColor=white)
-![image](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![image](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![image](https://img.shields.io/badge/Jacascript-593D88?style=for-the-badge&logo=javascript&logoColor=white)
-
-
-<p align="center"><img src="./src/Images/screenshot3.png" /></p>
-
-<p align="center"><img src="./src/Images/screenshot1.png" /></p>
-
-<p align="center"><img src="./src/Images/screenshot2.png" /></p>
-
-
-### ✨ [Live Demo]()
-
-
-## Description 
-
-<p>
-At <b>Lendsqr </b>, many of our lenders use our mobile apps to reach over half a million customers. <br> 
-
-At this scale, we use <b> React </b> with TypeScript and SCSS as its frontend software development stack which allows us to rapidly ideate and release features rapidly and reliably.
-
-</p>
 
 ## Problem Statement 
 
@@ -104,32 +45,12 @@ At this scale, we use <b> React </b> with TypeScript and SCSS as its frontend so
 </ul> <br>
 
 
-## Pusing to Heroku 
-
-<p> From your terminal type the following to host this application on 
-heroku </p>
-
-```
-$ heroku login
-$ heroku create 
-$ heroku rename <"app-new-name">
-$ git add .  
-$ git push heroku master 
-```
-<br>
-
-## Working Principle 
-<p> The gif image below explains how the application functions. <p> 
-<p align="center"><img src="./src/gif/motion.gif" /></p>
-
-<br>
-
-## Download & Installation 
+## Getting Started
 
 <p> To download this application, in your terminal clone a copy of this repo and type the following inside the directory </p>
 
 ```shell 
-$ git clone "https://github.com/cboychinedu/lendsqr-fe-test" 
+$ git clone "https://github.com/Vinyl-Davyl/lendsqr-fe-test" 
 ```
 <p> The type the following code below to install all necessary dependencies. 
 </p>
@@ -169,17 +90,38 @@ To build the application, open a terminal in your working directory, and type th
 $ npm run build 
 ``` 
 
+### ✨ Project Demo <br><br>
+  
+<p align="center"><img src="./src/images/shot1.png" /></p>
+
+<p align="center"><img src="./src/images/shot2.png" /></p>
+
+<p align="center"><img src="./src/images/shot3.png" /></p>
+
+
+### ✨ [Live Demo]()
 
 <br>
+
+![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![image](https://img.shields.io/badge/Netlify-430098?style=for-the-badge&logo=netlify&logoColor=white)
+![image](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![image](https://img.shields.io/badge/Codecademy-FFF0E5?style=for-the-badge&logo=codecademy&logoColor=303347)
+![image](https://img.shields.io/badge/Typescript-000000?style=for-the-badge&logo=typescript&logoColor=white)
+![image](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![image](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![image](https://img.shields.io/badge/Jacascript-593D88?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Help
 
 <p>
 Reach out to Vinyl
-<ul>
-    <li> <b> Twitter</b> </li> 
-    <li> <b> Instagram </b> </li> 
-</ul>
+  <ul>
+     - Website: https://vinyldavyl.netlify.app
+  - Twitter: [@Vinylchi](https://twitter.com/Vinylchi) 
+  </ul>
 </p>
 <br>
  
