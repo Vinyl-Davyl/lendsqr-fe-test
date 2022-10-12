@@ -34,7 +34,7 @@ const DashboardBody = () => {
     document.title = `Lendsqr - Dashboard`;
   }, []);
 
-  // PAGE BUTTONS (NAVIGATION THROUGH THE FETCHED DATA USING THE PAGINATION FEATURE)
+  // Page buttons
   const handlePage = (index) => {
     setPage(index);
   };
@@ -85,7 +85,7 @@ const DashboardBody = () => {
         })}
       </div>
 
-      {/* TABLE CONTAINING USER INFORMATION GOTTEN FROM THE API */}
+      {/* Table with user Info from API */}
       <div className='table-container'>
         <div className='table'>
           <div className='table-header'>
