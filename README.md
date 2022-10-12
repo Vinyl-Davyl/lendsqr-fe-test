@@ -119,7 +119,9 @@ $ npm run build
 <p>
 Reach out to Vinyl
   <ul>
+    
    - Website: https://vinyldavyl.netlify.app <br>
+    
   - Twitter: [@Vinylchi](https://twitter.com/Vinylchi) 
   </ul>
 </p>
